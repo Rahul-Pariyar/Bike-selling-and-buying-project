@@ -34,19 +34,19 @@ const Navbar = () => {
         >
           <ul className="flex flex-col md:flex-row gap-4 md:gap-6 p-4 md:p-0 bg-gray-800 text-white">
             <li className="hover:bg-gray-700 rounded px-3 py-2">
-              <NavLink to="/" className={(e)=>{return e.isActive?"block w-full h-full bg-red-700 px-4 py-3 rounded" : "block w-full h-full px-3 py-2" }} onClick={() => setIsOpen(false)}>Home</NavLink>
+              <NavLink to="/" className={(e)=>{return e.isActive?"block w-full h-full bg-red-700 px-4 py-3 rounded transition-transform transform hover:scale-110" : "block w-full h-full px-3 py-2" }} onClick={() => setIsOpen(false)}>Home</NavLink>
             </li>
             <li className="hover:bg-gray-700 rounded px-3 py-2">
-              <NavLink to="/browse" className={(e)=>{return e.isActive?"block w-full h-full bg-red-700 px-4 py-3 rounded" : "block w-full h-full px-3 py-2"}} onClick={() => setIsOpen(false)}>Browse Bikes</NavLink>
+              <NavLink to="/browse" className={(e)=>{return e.isActive?"block w-full h-full bg-red-700 px-4 py-3 rounded transition-transform transform hover:scale-110" : "block w-full h-full px-3 py-2"}} onClick={() => setIsOpen(false)}>Browse Bikes</NavLink>
             </li>
             <li className="hover:bg-gray-700 rounded px-3 py-2">
-              <NavLink to="/sell" className={(e)=>{return e.isActive?"block w-full h-full bg-red-700 px-4 py-3 rounded" : "block w-full h-full px-3 py-2"}} onClick={() => setIsOpen(false)}>Sell Bikes</NavLink>
+              <NavLink to="/sell" className={(e)=>{return e.isActive?"block w-full h-full bg-red-700 px-4 py-3 rounded transition-transform transform hover:scale-110" : "block w-full h-full px-3 py-2"}} onClick={() => setIsOpen(false)}>Sell Bikes</NavLink>
             </li>
             <li className="hover:bg-gray-700 rounded px-3 py-2">
-              <NavLink to="/about" className={(e)=>{return e.isActive?"block w-full h-full bg-red-700 px-4 py-3 rounded" : "block w-full h-full px-3 py-2"}} onClick={() => setIsOpen(false)}>About</NavLink>
+              <NavLink to="/about" className={(e)=>{return e.isActive?"block w-full h-full bg-red-700 px-4 py-3 rounded transition-transform transform hover:scale-110" : "block w-full h-full px-3 py-2"}} onClick={() => setIsOpen(false)}>About Us</NavLink>
             </li>
             <li className="hover:bg-gray-700 rounded px-3 py-2">
-              <NavLink to="/contact" className={(e)=>{return e.isActive?"block w-full h-full bg-red-700 px-4 py-3 rounded" : "block w-full h-full px-3 py-2"}} onClick={() => setIsOpen(false)}>Contact</NavLink>
+              <NavLink to="/contact" className={(e)=>{return e.isActive?"block w-full h-full bg-red-700 px-4 py-3 rounded transition-transform transform hover:scale-110" : "block w-full h-full px-3 py-2"}} onClick={() => setIsOpen(false)}>Contact</NavLink>
             </li>
             {/* Login Button in Hamburger Menu */}
             <li className="mt-4 md:hidden">

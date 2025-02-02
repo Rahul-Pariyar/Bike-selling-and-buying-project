@@ -12,6 +12,7 @@ import About from './pages/about.jsx'
 import Contact from './pages/contact.jsx'
 import Signup from './pages/Signup.jsx'
 import Login from './pages/login.jsx'
+import ShowCategory from './pages/showCategory.jsx'
 
 const router=createBrowserRouter([
   {
@@ -24,7 +25,8 @@ const router=createBrowserRouter([
       {path:'/about',element:<About/>},
       {path:'/contact',element:<Contact/>},
       {path:'/signup',element:<Signup/>},
-      {path:'/login',element:<Login/>}
+      {path:'/login',element:<Login/>},
+      {path:'/showCategory',element:<ShowCategory/>}
     ]
   }
 ])
