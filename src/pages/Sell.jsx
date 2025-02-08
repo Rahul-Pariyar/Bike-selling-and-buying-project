@@ -2,8 +2,10 @@ import React from 'react'
 
 const Sell = () => {
   return (
-    <div>
-      This is sell page
+    <div className='flex flex-col min-h-screen'>
+        <div className='flex-grow'>
+            This is sell page
+        </div>
     </div>
   )
 }

@@ -19,7 +19,7 @@ const bikeData=[
 const Category = () => {
   return (    
     //flex flex-col justify-center gap-8
-    <div className='w-full min-h-full bg-slate-800 grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-4'>
+    <div className='w-full min-h-full bg-white grid grid-cols-2 gap-4 md:grid-cols-3 lg:grid-cols-6'>
       {bikeData.map((category,index)=>(
         <CategoryCard key={index} name={category.name} image={category.image}/>
       ))}

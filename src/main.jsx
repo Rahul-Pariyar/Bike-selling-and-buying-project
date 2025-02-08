@@ -13,6 +13,7 @@ import Contact from './pages/contact.jsx'
 import Signup from './pages/Signup.jsx'
 import Login from './pages/login.jsx'
 import ShowCategory from './pages/showCategory.jsx'
+import PrivacyPolicy from './pages/PrivacyPolicy.jsx'
 
 const router=createBrowserRouter([
   {
@@ -26,7 +27,8 @@ const router=createBrowserRouter([
       {path:'/contact',element:<Contact/>},
       {path:'/signup',element:<Signup/>},
       {path:'/login',element:<Login/>},
-      {path:'/showCategory',element:<ShowCategory/>}
+      {path:'/showCategory',element:<ShowCategory/>},
+      {path:'/policy',element:<PrivacyPolicy/>}
     ]
   }
 ])
