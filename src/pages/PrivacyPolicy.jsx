@@ -2,7 +2,7 @@ import React from 'react'
 
 const PrivacyPolicy = () => {
   return (
-    <div>
+    <div className='flex flex-col min-h-screen'>
       Privacy policy
     </div>
   )

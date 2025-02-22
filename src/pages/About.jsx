@@ -2,9 +2,6 @@ import React from 'react'
 
 const About = () => {
   return (
-    // <div>
-    //   This is about page
-    // </div>
     <div className='flex flex-col min-h-screen'>
         <div className='flex-grow'>
           <h1 className='text-3xl pt-12 font-bold text-black mb-4'>About Us</h1>

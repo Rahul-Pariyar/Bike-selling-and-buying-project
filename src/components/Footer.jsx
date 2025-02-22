@@ -60,16 +60,16 @@ const Footer = () => {
                     <h2 className='text-white text-xl font-semibold'>Company</h2>
                     <ul className='text-white text-sm mt-2'>
                         <li className='my-2'>
-                            <NavLink to='/' className='hover:text-yellow-400'>Home</NavLink>
+                            <NavLink to='/' className='hover:text-yellow-400' onClick={() => window.scrollTo(0, 0)}>Home</NavLink>
                         </li>
                         <li className='my-2'>
-                            <NavLink to='/about' className='hover:text-yellow-400'>About Us</NavLink>
+                            <NavLink to='/about' className='hover:text-yellow-400' onClick={() => window.scrollTo(0, 0)}>About Us</NavLink>
                         </li>
                         <li className='my-2'>
-                            <NavLink to='/contact' className='hover:text-yellow-400'>Contact</NavLink>
+                            <NavLink to='/contact' className='hover:text-yellow-400' onClick={() => window.scrollTo(0, 0)}>Contact</NavLink>
                         </li>
                         <li className='my-2'>
-                            <NavLink to='/privacy' className='hover:text-yellow-400'>Privacy Policy</NavLink>
+                            <NavLink to='/policy' className='hover:text-yellow-400' onClick={() => window.scrollTo(0, 0)}>Privacy Policy</NavLink>
                         </li>
                     </ul>
                 </div>

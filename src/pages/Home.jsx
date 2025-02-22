@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import Category from "../components/category";
 import LatestBikeSlider from "../components/latestBikeSlider";
-import SellComponent from "../components/sellComponent";
+import SellComponent from "../components/SellComponent.jsx";
 
 const Home = () => {
   return (
@@ -16,7 +16,7 @@ const Home = () => {
           <p className="mt-3 text-2xl sm:text-3xl">
             Choose from over 500+ motorcycles for sale.
           </p>
-          <Link to='/sell'>
+          <Link to='/browse'>
             <button className="mt-6 px-6 py-3 bg-red-500 hover:bg-red-600 rounded-lg text-lg font-semibold transition-transform transform hover:scale-105">
               Show bikes for sale
             </button>

@@ -1,10 +1,11 @@
 import React from 'react'
+import SellComponent from '../components/SellComponent'
 
 const Sell = () => {
   return (
     <div className='flex flex-col min-h-screen'>
         <div className='flex-grow'>
-            This is sell page
+            <SellComponent/>
         </div>
     </div>
   )
